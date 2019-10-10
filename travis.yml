@@ -1,0 +1,8 @@
+language: java
+jdk: oraclejdk8
+
+deploy:
+  provider: heroku
+  api_key:
+    secure: 61bce62e-56fe-4e1a-9661-f6776e029f20
+    app: devops-test0
